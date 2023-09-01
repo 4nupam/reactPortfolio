@@ -1,0 +1,33 @@
+.container{
+  width: 100%;
+ 
+}
+.mail_me{
+  position: absolute;
+  top:50%;
+  left: 45%;
+  gap:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail_me button{
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+.mail_me button:hover{
+  
+  border: 1px solid red;
+  background-color: red;
+}
+.mail_me button a:hover{
+  color:#fff;
+}
